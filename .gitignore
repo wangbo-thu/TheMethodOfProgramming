@@ -1,10 +1,14 @@
 # 忽略所有内容
-/* 
+*.*
+*Makefile
+*Makefile2
 # 取反操作 !
+
+!*.cpp
+# !*.c
+# !*.txt
 !.gitignore
-!.cpp
-!.c
-!.txt
+
 
 # Prerequisites
 *.d
