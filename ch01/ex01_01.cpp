@@ -1,10 +1,9 @@
 //
-// Created by wangb15 on 2017/11/13.
+// Created by wangb15 on 2017/11/15.
 //
 
 #include <iostream>
 using namespace std;
-
 void StringPrint(char* s, int n)
 {
     for (int i = 0; i < n; i++) {
@@ -30,18 +29,4 @@ void LeftRotateString(char* s, int n, int m)
         LeftShiftOne(s, n);
     }
 
-}
-
-int main()
-{
-
-    char t[] = "abcdef";
-    char* s = t;
-    int n = 6;
-    int m = 3;
-    cout << "Before Rotate:" << endl;
-    StringPrint(s, n);
-    LeftRotateString(s, n, m);
-    cout << "After Rotate:" << endl;
-    StringPrint(s, n);
 }
